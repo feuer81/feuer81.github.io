@@ -428,3 +428,125 @@ input[type="text"] { position: relative; border: 1px solid rgb(223, 223, 223); b
 .ord_button { background-color: rgb(0, 55, 103); color: rgb(255, 255, 255) ! important; display: inline-block; padding: 10px 30px; font-size: 25px ! important; box-shadow: 2px 3px 8px rgb(153, 153, 153); text-decoration: none ! important; border-radius: 8px; border: 3px solid rgb(255, 255, 255); margin: 20px 0px 30px; line-height: 27px; text-transform: uppercase; transition: all 0.3s ease-in 0s; }
 .ord_button:hover { background-color: rgb(119, 33, 51); box-shadow: 2px 3px 3px rgb(153, 153, 153); text-decoration: none ! important; transform: scale(1.1); }
 
+
+
+
+
+
+.cenz-image {
+    display: inline-block;
+    background-image: url(./18_plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    border: 5px solid red;
+    cursor: pointer;
+    width: 450px;
+    max-width: 100%;
+
+    box-sizing: border-box;
+}
+
+.cenz-image img {
+    visibility: hidden;
+}
+
+.cenz-image.cenz-show {
+
+    border: none;
+}
+
+.cenz-image.cenz-show img {
+    visibility: visible;
+}
+
+.cenz-image2 {
+    display: inline-block;
+    background-image: url(./18_plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    border: 5px solid red;
+    cursor: pointer;
+    width: 400px;
+    max-width: 100%;
+
+    box-sizing: border-box;
+}
+.cenz-image2 img {
+    visibility: hidden;
+}
+
+.cenz-image2.cenz-show {
+
+    border: none;
+}
+
+.cenz-image2.cenz-show img {
+    visibility: visible;
+}
+
+.cenz-image3 {
+    display: inline-block;
+    background-image: url(./18_plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    border: 5px solid red;
+    cursor: pointer;
+    width: 250px;
+    max-width: 100%;
+
+    box-sizing: border-box;
+}
+.cenz-image3 img {
+    visibility: hidden;
+}
+
+.cenz-image3.cenz-show {
+
+    border: none;
+}
+
+.cenz-image3.cenz-show img {
+    visibility: visible;
+}
+
+.contact-form__group {
+    width: 40%;
+}
+
+.contact-form__group select {
+    width: 100%;
+}
+
+.contact-form__group input,
+.contact-form__group select {
+   border: 1px solid gray;
+   border-radius: 5px;
+   height: 40px;
+
+   margin: 10px 0;
+}
+
+.contact-form button {
+    width: 40%;
+    height: 40px;
+
+    background-color: rgb(98, 167, 217);
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+
+    margin: 20px 0;
+}
+
+@media (max-width: 480px) {
+    .contact-form__group {
+        width: 100%;
+    }
+    .contact-form button {
+        width: 100%;
+    }
+}
