@@ -428,7 +428,7 @@ input[type="text"] { position: relative; border: 1px solid rgb(223, 223, 223); b
 .ord_button { background-color: rgb(0, 55, 103); color: rgb(255, 255, 255) ! important; display: inline-block; padding: 10px 30px; font-size: 25px ! important; box-shadow: 2px 3px 8px rgb(153, 153, 153); text-decoration: none ! important; border-radius: 8px; border: 3px solid rgb(255, 255, 255); margin: 20px 0px 30px; line-height: 27px; text-transform: uppercase; transition: all 0.3s ease-in 0s; }
 .ord_button:hover { background-color: rgb(119, 33, 51); box-shadow: 2px 3px 3px rgb(153, 153, 153); text-decoration: none ! important; transform: scale(1.1); }
 
-.actia .title {
+.title {
     margin-bottom: 20px;
     font-size: 24px;
     color: #328692;
@@ -437,31 +437,31 @@ input[type="text"] { position: relative; border: 1px solid rgb(223, 223, 223); b
     letter-spacing: -1.2px;
 }
 
-.actia .title:after {
+.title:after {
     content: '*';
     padding-left: 5px;
     font-size: 30px;
     color: #ff5b20;
 }
 
-.actia .price {
+.price {
     font-size: 0;
     margin-bottom: 18px;
 }
 
-.actia .price .old-price,
-.actia .price .new-price {
+.price .old-price,
+.price .new-price {
     display: inline-block;
     width: 50%;
     text-align: left;
 }
 
-.actia .price .old-price div,
-.actia .price .new-price div {
+.price .old-price div,
+.price .new-price div {
     padding-bottom: 8px;
 }
 
-.actia .price .old-price {
+.price .old-price {
     position: relative;
     vertical-align: top;
     font-size: 21px;
@@ -469,7 +469,7 @@ input[type="text"] { position: relative; border: 1px solid rgb(223, 223, 223); b
     color: #959595;
 }
 
-.actia .price .x_price_previous:after {
+.price .x_price_previous:after {
     content: " ";
     background: url(../src/crosed.png) no-repeat;
     background-size: cover;
@@ -483,50 +483,38 @@ input[type="text"] { position: relative; border: 1px solid rgb(223, 223, 223); b
     left: 5px;
 }
 
-.actia .price .old-price div {
+.price .old-price div {
     font-weight: 400;
     font-size: 15px;
 }
 
-.actia .price .old-price span:nth-child(2) {
+.price .old-price span:nth-child(2) {
     position: relative;
     font-weight: 400;
     font-size: 24px;
 }
 
-.actia .price .old-price span:nth-child(3) {
+.price .old-price span:nth-child(3) {
     font-size: 15px;
 }
 
-.actia .price .new-price {
+.price .new-price {
     color: #ff5b20;
     margin-left: -10px;
 }
 
-.actia .price .new-price div {
+.price .new-price div {
     font-weight: 400;
     font-size: 15px;
 }
 
-.actia .price .new-price span:nth-child(2) {
+.price .new-price span:nth-child(2) {
     font-weight: 500;
     font-size: 40px;
 }
 
-.actia .price .new-price span:nth-child(3) {
+.price .new-price span:nth-child(3) {
     font-size: 15px;
-}
-
-.actia_bellow {
-    width: 230px;
-    text-align: center;
-}
-
-.actia .actia_text {
-    font-size: 15px;
-    letter-spacing: -0.7px;
-    color: #37888e;
-    text-transform: uppercase;
 }
 
 .cenz-image {
