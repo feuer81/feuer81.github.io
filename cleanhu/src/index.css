@@ -477,7 +477,8 @@ input[type="text"] { position: relative; border: 1px solid rgb(223, 223, 223); b
 
 .price .new-price {
     color: #ff5b20;
-    margin-left: -10px;
+    /*margin-left: -10px;*/
+    font-size: 24px;
 }
 
 .price .new-price div {
